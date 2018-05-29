@@ -40,14 +40,14 @@ function happyHolidaysTo(name) {
   return `Happy holidays, ${name}!`
 }
 
-happyHolidaysTo('you')
+test2 = happyHolidaysTo('you')
 
 function happyHolidayTo(holiday, name) {
   console.log(`Happy ${holiday}, ${name}!`)
   return `Happy ${holiday}, ${name}!`
 }
 
-happyHolidayTo('Independence Day', 'you')
+test3 = happyHolidayTo('Independence Day', 'you')
 
 function holidayCountdown(holiday, days) {
   console.log(`It's ${days} days until ${holiday}!`)
