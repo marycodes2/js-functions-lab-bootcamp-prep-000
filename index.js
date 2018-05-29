@@ -54,6 +54,8 @@ function holidayCountdown(holiday, days) {
   return `It's ${days} days until ${holiday}!`
 }
 
-holidayCountdown("Mother's Day", 20)
+test4 = holidayCountdown("Mother's Day", 20)
+
+console.log(test1, test2, test3, test4)
 
 
