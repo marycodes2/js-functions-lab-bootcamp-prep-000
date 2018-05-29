@@ -33,29 +33,27 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
-test1 = happyHolidays()
+happyHolidays()
 
 function happyHolidaysTo(name) {
   console.log(`Happy holidays, ${name}!`)
   return `Happy holidays, ${name}!`
 }
 
-test2 = happyHolidaysTo('you')
+happyHolidaysTo('you')
 
 function happyHolidayTo(holiday, name) {
   console.log(`Happy ${holiday}, ${name}!`)
   return `Happy ${holiday}, ${name}!`
 }
 
-test3 = happyHolidayTo('Independence Day', 'you')
+happyHolidayTo('Independence Day', 'you')
 
 function holidayCountdown(holiday, days) {
   console.log(`It's ${days} days until ${holiday}!`)
   return `It's ${days} days until ${holiday}!`
 }
 
-test4 = holidayCountdown("Mother's Day", 20)
-
-console.log(test1, test2, test3, test4)
+holidayCountdown("Mother's Day", 20)
 
 
